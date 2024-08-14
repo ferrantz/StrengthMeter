@@ -41,8 +41,8 @@ for i in range(df.shape[0]):
 
 # Impostazione delle etichette dei vertici
 ax.set_xticks(angles[:-1])
-ax.set_xticklabels(labels, ha='center')
-
+ax.set_xticklabels(labels, ha='center', fontsize=10, fontweight='bold', fontname='Arial')
+ax.tick_params(axis='x', pad=15) 
 # Impostazione dei limiti dell'asse radiale
 ax.set_ylim(0, 1)  # Normalizzazione tra 0 e 1  
 
