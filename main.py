@@ -1,8 +1,8 @@
-import numpy as np
-import matplotlib.pyplot as plt
+import numpy as np # type: ignore
+import matplotlib.pyplot as plt # type: ignore
 from math import pi
 from vertici import *
-import pandas as pd
+import pandas as pd # type: ignore
 
 file_path = 'dati.xlsx'
 df = pd.read_excel(file_path)
